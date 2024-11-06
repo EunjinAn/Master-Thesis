@@ -13,7 +13,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 
-class dj_num(Dataset):
+class Dataset_dj_num(Dataset):
     def __init__(self, root_path, flag='train', size=None,
                  features='MS', data_path='dj_num.csv',
                  target='OT', scale=True, inverse=False, timeenc=0, freq='b', cols=None):

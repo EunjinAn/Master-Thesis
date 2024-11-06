@@ -15,8 +15,8 @@ warnings.filterwarnings('ignore')
 
 class dj_num(Dataset):
     def __init__(self, root_path, flag='train', size=None,
-                 features='S', data_path='dj_num.csv',
-                 target='OT', scale=True, inverse=False, timeenc=0, freq='B', cols=None):
+                 features='MS', data_path='dj_num.csv',
+                 target='OT', scale=True, inverse=False, timeenc=0, freq='b', cols=None):
         # size [seq_len, label_len, pred_len]
         # info
         if size == None:
